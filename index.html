@@ -26,7 +26,7 @@
                 let userPin = prompt("Enter PIN");
                 let isFound = this.pinExists(userPin);
                 if (isFound) {
-                    //valid login
+                    //valid logins
                     this.switchScreens();
                     this.balance = isFound;
                     this.currentPin = userPin
